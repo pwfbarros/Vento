@@ -11,12 +11,13 @@ import math
 from graph import graph
 
 #Locale settings (para gráficos com vírgulas)
-import locale
+#import locale
 # Set to German locale to get comma decimal separater
-locale.setlocale(locale.LC_NUMERIC, "de_DE")
-plt.rcdefaults()
+
+#locale.setlocale(locale.LC_NUMERIC, "de_DE")
+#plt.rcdefaults()
 # Tell matplotlib to use the locale we set above
-plt.rcParams['axes.formatter.use_locale'] = True
+#plt.rcParams['axes.formatter.use_locale'] = True
 
 
 
